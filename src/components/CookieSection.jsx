@@ -21,7 +21,7 @@ const CookieSection = () => {
         <div className="mt-0 items-center justify-center">
         <div className="w-5 h-5 rounded-full bg-green-300 mx-40 md:mx-80 mb-0 sm: mt-5 lg:mt-20 "></div>
         <div className="flex items-center justify-center">
-        <div className="border rounded-lg h-40 mx-20 max-w-2xl max-auto bg-purple-900 place-content-center">
+        <div className="border rounded-lg h-40 mx-20 max-w-9xl max-auto bg-purple-900 place-content-center">
             <h2 className="text-sm md:text-3xl text-white px-10">
             <span className="text-green-300">Improve your </span> ad performance <br /><span className="text-green-300">with our</span> affilliate marketing software.</h2>
         </div>
