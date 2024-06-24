@@ -1,4 +1,4 @@
-import React from 'react'
+
 import img1 from '../assets/profile-pictures/img1.png'
 import img2 from '../assets/profile-pictures/img2.png'
 import img3 from '../assets/profile-pictures/img3.png'
@@ -29,7 +29,7 @@ const Testimonial = () => {
                 <div className='flex items-center justify-center'>
                 <p className='m-5'><img className='h-20 w-20' src={img4} alt="image"/></p>
                 </div>
-                <p className='text-lg'>John Crestani</p>
+                <p className='font-bold'>John Crestani</p>
                 <p className='text-sm'>Affiliate Marketing Expert</p>
                 </div>            
             </div>
