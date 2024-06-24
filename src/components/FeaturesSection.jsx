@@ -2,11 +2,11 @@ import { Feature1, Feature2, Feature3, Feature4 } from "./IndexFile"
 
 const FeaturesSection = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-10 md:mx-20">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-20">Features so good,<br />
         they will change the way you do <span className="text-purple-800">affiliate marketing</span>
         </h1>
-        <div className="flex flex-col md:flex-row gap-10 lg:mt-10">
+        <div className="grid grid-row md:grid-cols-2 lg:grid-cols-4 gap-10 lg:mt-10">
         <div className="mt-5">
             {Feature1.map((items, index)=>(
                 <div key={index}>

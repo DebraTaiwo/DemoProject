@@ -3,7 +3,7 @@ import {AAT, AMT, ATO, CookieText} from "./IndexFile"
 const CookieSection = () => {
   return (
     <div className="mt-10 mb-10">
-         <div className="flex flex-col md:flex-row px-20 sm: gap-5 md:gap-10 mt-20 relative">
+         <div className="flex flex-col md:flex-row mx-10 md:mx-20 sm: gap-5 md:gap-10 mt-20 relative">
            <div className="flex flex-col max-w-3xl">
             {CookieText.map((item, index)=>(
               <div key={index}>
@@ -21,7 +21,7 @@ const CookieSection = () => {
         <div className="mt-0 items-center justify-center">
         <div className="w-5 h-5 rounded-full bg-green-300 mx-40 md:mx-80 mb-0 sm: mt-5 lg:mt-20 "></div>
         <div className="flex items-center justify-center">
-        <div className="border rounded-lg h-40 mx-20 max-w-9xl max-auto bg-purple-900 place-content-center">
+        <div className="border rounded-lg h-40 mx-20 max-w-10xl max-auto bg-purple-900 place-content-center">
             <h2 className="text-sm md:text-3xl text-white px-10">
             <span className="text-green-300">Improve your </span> ad performance <br /><span className="text-green-300">with our</span> affilliate marketing software.</h2>
         </div>
@@ -33,7 +33,7 @@ const CookieSection = () => {
           <div className="rounded-lg bg-red-100 px-4 py-3"><h6>Optimize</h6></div>
           <div className="rounded-lg bg-purple-400 px-2 py-3"><h6>Automate</h6></div>
         </div>
-        <div className="flex flex-col md:flex-row px-20 sm: gap-5 md:gap-10">
+        <div className="flex flex-col md:flex-row mx-10 md:mx-20 sm: gap-5 md:gap-10">
           {AMT.map((item)=>(
             <div className="h-46 w-65 max-w-3xl">{item.image}</div>
           ))}
@@ -48,7 +48,7 @@ const CookieSection = () => {
             ))}
           </div>          
         </div> 
-        <div className="flex flex-col md:flex-row px-20 sm: gap-5 md:gap-10 mt-20">
+        <div className="flex flex-col md:flex-row mx-10 md:mx-20 sm: gap-5 md:gap-10 mt-20">
            <div className="flex flex-col max-w-3xl">
             {ATO.map((item, index)=>(
               <div key={index}>
@@ -63,7 +63,7 @@ const CookieSection = () => {
             <div className="h-46 w-65 max-w-3xl">{item.image}</div>
           ))}         
         </div>
-        <div className="flex flex-col md:flex-row px-20 sm: gap-5 md:gap-10 mt-20">
+        <div className="flex flex-col md:flex-row mx-10 md:mx-20 sm: gap-5 md:gap-10 mt-20">
           {AAT.map((item)=>(
             <div className="h-46 w-65 max-w-3xl">{item.image}</div>
           ))}
