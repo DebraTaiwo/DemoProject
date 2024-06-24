@@ -46,9 +46,10 @@ const FeaturesSection = () => {
         </div>
         <div className="mt-10">
             <p className="text-sm text-center">Voluum is much more than just a link tracking software</p>
-            <div className="flex items-center justify-center mt-5"><button className="px-8 py-4 bg-green-300 rounded-lg">
+            <div className="flex items-center justify-center mt-5">
+                <button className="px-8 py-4 bg-green-300 rounded-lg">
                 See all Features
-            </button></div>
+                </button></div>
         </div>
       
     </div>
