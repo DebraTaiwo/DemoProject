@@ -3,6 +3,7 @@ import bell from "../assets/bell.png"
 import cloudrain from "../assets/cloudrain.png"
 import lock from "../assets/lock.png"
 import settingsicon from "../assets/settingsicon.png"
+import img4 from "../assets/profile-pictures/img4.png"
 
 
 export const CookieText =[
@@ -80,6 +81,17 @@ export const Feature4 =[
         label: "Set up mobile & desktop push notifications. Know immediately when your campaign performance changes"
 
     }
+]
+
+
+export const TestimonialText = [
+    {
+        label: "Voluum contributed massively to my business growth - from $ 1M a year to $ 3M. It's intuitive and user-friendly, giving me the ability to manage large sets of advertising data.",
+        pix: <img src={img4} alt="image"/>,
+        name: "John Crestani",
+        post: "Affiliate Marketing Expert"
+    }
+
 ]
 
 

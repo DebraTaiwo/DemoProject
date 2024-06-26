@@ -3,8 +3,8 @@ import { Feature1, Feature2, Feature3, Feature4 } from "./IndexFile"
 const FeaturesSection = () => {
   return (
     <div className="mx-10 md:mx-20">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-20">Features so good,<br />
-        they will change the way you do <span className="text-purple-800">affiliate marketing</span>
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-20 font-bold">Features so good,<br />
+        they will change the way you do <span className="text-purple-800 font-bold">affiliate marketing</span>
         </h1>
         <div className="grid grid-row md:grid-cols-2 lg:grid-cols-4 gap-10 lg:mt-10">
         <div className="mt-5">
@@ -46,7 +46,7 @@ const FeaturesSection = () => {
         </div>
         <div className="mt-10">
             <p className="text-sm text-center">Voluum is much more than just a link tracking software</p>
-            <div className="flex items-center justify-center mt-5">
+            <div className="flex items-center justify-center mt-5 font-bold">
                 <button className="px-8 py-4 bg-green-300 rounded-lg">
                 See all Features
                 </button></div>
