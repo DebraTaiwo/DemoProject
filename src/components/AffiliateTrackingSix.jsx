@@ -1,25 +1,23 @@
-import React from 'react'
-
 const AffiliateTrackingSix = () => {
   return (
-    <div className='flex'>
-      <div className='w-1/4'>
-        <h4>Company</h4>
+    <div className='mx-20 flex justify-center flex-wrap md:flex-nowrap mt-10'>
+      <div className='w-full md:w-1/4 p-4 md:p-0 '>
+        <h4 className='font-bold'>Company</h4>
         <p>About us</p>
         <p>Become a partner</p>
         <p>Referral Program</p>
         <p>Contact us</p>
       </div>
-      <div className='w-1/4'>
-        <h4>Features</h4>
+      <div className='w-full md:w-1/4 p-4 md:p-0 '>
+        <h4 className='font-bold'>Features</h4>
         <p>Automizer</p>
         <p>Traffic Distribution AI</p>
         <p>Anti-Fraud Kit</p>
         <p>Mobile Notifications</p>
         <p>Collaboration Tools</p>
       </div>
-      <div className='w-1/4'>
-        <h4>Integrations</h4>
+      <div className='w-full md:w-1/4 p-4 md:p-0 '>
+        <h4 className='font-bold'>Integrations</h4>
         <p>Taboola</p>
         <p>MGID</p>
         <p>Revcontent</p>
@@ -32,8 +30,8 @@ const AffiliateTrackingSix = () => {
         <p>TrafficJunky</p>
         <p>and more!</p>
       </div>
-      <div className='w-1/4'>
-        <h4>Resources</h4>
+      <div className='w-full md:w-1/4 p-4 md:p-0 '>
+        <h4 className='font-bold'>Resources</h4>
         <p>Beginner AM Guide</p>
         <p>Webinars</p>
         <p>Video Tutorials</p>
