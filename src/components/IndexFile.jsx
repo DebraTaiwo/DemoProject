@@ -11,8 +11,6 @@ export const CookieText =[
         image: <img src={keyBG} alt="picture" />,
         title: "Cookie-less tracking & Conversion attribution",
         body: "Forget cookie-dependent pixels.",
-        para1: "Use reliable server-to-server postbacks to get conversion data, distinguish between various conversion types and even pass them to your traffic source!",
-        para2: "Determine which ad variation, lander, or offer brought you conversions and effortlessly optimize your campaign flows for even more."
     }
 ]
 
@@ -87,11 +85,57 @@ export const Feature4 =[
 export const TestimonialText = [
     {
         label: "Voluum contributed massively to my business growth - from $ 1M a year to $ 3M. It's intuitive and user-friendly, giving me the ability to manage large sets of advertising data.",
-        pix: <img src={img4} alt="image"/>,
         name: "John Crestani",
         post: "Affiliate Marketing Expert"
     }
 
 ]
+
+export const companyLinks = [
+    { href: "#", text: "About us" },
+    { href: "#", text: "Become a partner" },
+    { href: "#", text: "Referral program"},
+    { href: "#", text: "Contact us" }
+];
+
+export const featuresLinks = [
+    { href: "#", text: "Automizer" },
+    { href: "#", text: "Traffic Distribution AI" },
+    { href: "#", text: "Anti-Fraud Kit"},
+    { href: "#", text: "Mobile Notifications" },
+    { href: "#", text: "Collaboration Tools" }
+];
+
+export const integrationsLinks = [
+    { href: "#", text: "Taboola" },
+    { href: "#", text: "MGID" },
+    { href: "#", text: "Revcontent"},
+    { href: "#", text: "PropellerAds" },
+    { href: "#", text: "ExoClick" },
+    { href: "#", text: "Zeropark" },
+    { href: "#", text: "Outbrain" },
+    { href: "#", text: "Content.ad" },
+    { href: "#", text: "Adsterra" },
+    { href: "#", text: "TrafficJunky" },
+    { href: "#", text: "and more!" }
+];
+
+export const resourcesLinks = [
+    { href: "#", text: "Beginner AM Guide" },
+    { href: "#", text: "Webinars" },
+    { href: "#", text: "Video Tutorials"},
+    { href: "#", text: "Documentation" },
+    { href: "#", text: "Case Studies" },
+    { href: "#", text: "Trackers Comparison" },
+    { href: "#", text: "Blog" },
+    { href: "#", text: "Affiliate Networks" },
+    { href: "#", text: "Change Log" },
+];
+
+
+
+
+
+
 
 

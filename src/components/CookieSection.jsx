@@ -9,8 +9,8 @@ const CookieSection = () => {
               <div key={index}>
                 <h1 className="text-purple-800 text-4xl max-w-4xl tracking-tight font-bold" >{item.title}</h1>
                 <p className="text-lg text-justify pt-3">{item.body}</p>
-                <p className="text-lg text-justify">{item.para1}</p>
-                <p className="text-lg text-justify pt-3">{item.para2}</p>
+                <p className="text-lg text-justify">Use reliable <span className="text-purple-800">server-to-server</span> postbacks to get conversion data, distinguish between various conversion types and even pass them to your traffic source!</p>
+                <p className="text-lg text-justify pt-3">Determine which ad variation, lander, or offer brought you conversions and effortlessly <span className="text-purple-800">optimize your campaign flows for even more</span> </p>
               </div>
             ))}
           </div> 

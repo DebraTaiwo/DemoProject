@@ -22,7 +22,7 @@ const Testimonial = () => {
             <div className='lg:ml-20'><img src={img3} alt="image" /></div>
         </div>
         
-        <div className='grid  gap-4 row-span-3'>
+        <div className='grid gap-4 row-span-3'>
             <div className='flex items-center justify-center text-center'>
             <div className='row-start-2 border rounded-[80px] border-b-purple-800 border-t-teal-300 border-t-[10px] border-b-[10px]'>
                 <div className='mt-10 mx-5 lg:mx-20 my-10 items-center justify-center'>
