@@ -19,27 +19,27 @@ const AffiliateSction = () => {
             
         </div>
       <div>
-        <div className='border rounded-tl-full h-40 w-40 mx-10 md:mx-20 mt-5 bg-green-300'></div>
-        <div className="border-none rounded-r-full h-[500px] lg:h-[400px] mx-10 md:mx-20 bg-blue-50 place-content-center">
-        <div className='grid grid-row md:grid-col  gap-10 mx-10'>
-            <div className='flex flex-wrap gap-5'>
-            <h1 className='text-2xl'>Official Tracking <br />Partner of</h1>
-            <button className='py-3 px-6 bg-gray-100  md:bg-white'>ClickBank</button>
-            <button className='py-3 px-6 bg-gray-100  md:bg-white'>Exoclick</button>
-            <button className='py-3 px-6 bg-gray-100  md:bg-white'>Propeller</button>
-            <button className='py-3 px-6 bg-gray-100  md:bg-white'>Mobidea</button>
+        <div className='border rounded-tl-full h-20 w-20 md:h-40 md:w-40 mx-10 md:mx-20 mt-5 bg-green-300'></div>
+        <div className="border-none rounded-r-full h-[850px] md:h-[500px] max-w-5xl lg:h-[350px] mx-10 md:mx-20 bg-blue-50 place-content-center">
+        <div className='grid grid-row md:grid-col gap-10 mx-10'>
+            <div className='flex flex-wrap gap-5 font-bold'>
+            <h1 className='text-2xl font-bold'>Official Tracking <br />Partner of</h1>
+            <button className='py-3 px-6 bg-white'>ClickBank</button>
+            <button className='py-3 px-6 bg-white'>Exoclick</button>
+            <button className='py-3 px-6 bg-white'>Propeller</button>
+            <button className='py-3 px-6 bg-white'>Mobidea</button>
             </div>
-            <div className='flex flex-wrap gap-5 sm:mb-30'>
-            <h1 className='text-2xl lg:mr-20'>Find us on</h1>
-            <button className='py-3 px-11 bg-gray-100 md:bg-white'>Smt</button>
-            <button className='py-3 px-6 bg-gray-100  md:bg-white'>AffiliateFix</button>
-            <button className='py-3 px-6 bg-gray-100  md:bg-white'>OffLIFT</button>
-            <button className='py-3 px-5 bg-gray-100  md:bg-white'>ADSOCIETY</button>
+            <div className='flex flex-wrap gap-5 sm:mb-30 font-bold'>
+            <h1 className='text-2xl lg:mr-20 font-bold'>Find us on</h1>
+            <button className='py-3 px-11 bg-white'>Smt</button>
+            <button className='py-3 px-6 bg-white'>AffiliateFix</button>
+            <button className='py-3 px-6 bg-white'>OffLIFT</button>
+            <button className='py-3 px-5 bg-white'>ADSOCIETY</button>
             </div>
         </div>
         </div>
       </div>
-      <div className='flex flex-col md:flex-row flex-wrap gap-5 mt-[150px] pt-10 md:mt-20'>
+      <div className='flex flex-col md:flex-row flex-wrap gap-5 mt-[40px] pt-10 md:mt-20'>
         <div className='mx-10 md:mx-20 max-w-xl'>
             <h1 className='max-w-2xl text-2xl sm:text-3xl lg:text-4xl font-bold mb-5 text-purple-800'>Affiliate tracking
             <br /> made easy</h1>
